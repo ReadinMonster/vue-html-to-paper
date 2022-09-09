@@ -72,7 +72,7 @@ const VueHtmlToPaper = {
       addStyles(win, styles);
       
       setTimeout(() => {
-        win.document.close();
+//         win.document.close();
         win.focus();
         win.print();
         setTimeout(function () {window.close();}, 1);
